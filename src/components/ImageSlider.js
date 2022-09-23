@@ -35,27 +35,22 @@ const ImageSlider = ({ slides }) => {
       <FaArrowAltCircleRight className="right-arrow" onClick={next} />
       <div className="buttons">
         <button
-          type="radio"
           className={current === 0 ? "button active" : "button"}
           onClick={() => setCurrent(0)}
         />
         <button
-          type="radio"
           className={current === 1 ? "button active" : "button"}
           onClick={() => setCurrent(1)}
         />
         <button
-          type="radio"
           className={current === 2 ? "button active" : "button"}
           onClick={() => setCurrent(2)}
         />
         <button
-          type="radio"
           className={current === 3 ? "button active" : "button"}
           onClick={() => setCurrent(3)}
         />
         <button
-          type="radio"
           className={current === 4 ? "button active" : "button"}
           onClick={() => setCurrent(4)}
         />
